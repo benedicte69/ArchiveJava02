@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- french xml part  translated -->
+<string name="app_name">Juste Java</string>
+<string name="name_v2">Votre nom</string>
+<string name="toppings">ingrédients</string>
+<string name="whipped_cream">"Crème fouettée "</string>
+<string name="chocolate">Chocolat</string>
+<string name="minus">-</string>
+<string name="quantity">quantité</string>
+<string name="quantity_number">2</string>
+<string name="plus">+</string>
+<string name="button_order">commander</string>
+
+    <!-- french java part translated -->
+
+    <!-- french java toasts-->
+<string name="toast_100_cups">Vous ne pouvez pas commander plus de 100 tasses</string>
+<string name="toast_1_cups">Vous devez commander au minimum 1 tasse</string>
+
+    <!-- french java intents-->
+<string name="extra_subject">Commande Juste Java pour :\u0020 </string>
+
+
+    <!-- java order summary text -->
+<string name="order_summary">"Résumé de votre commande : "</string>
+    <!--
+        name for the order summary. it will be shown in the format of 'Name: Anne"
+        where Anne is the user's name. [CHAR LIMIT=none ]
+    -->
+<string name="order_summary_name">Nom : <xliff:g example="Anne" id="name_order">%s</xliff:g></string>
+    <!--
+      Whipped cream topping for the order summary. It will be shown in the format of
+      "Avec de la crème ? true" or "Avec de la crème ? false". [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_whipped_cream">Avec de la crème ?\u0020 <xliff:g example="true" id="topping_whipped_cream">\%\b</xliff:g></string>
+    <!--
+    Chocolate topping for the order summary. It will be shown in the format of
+    "Avec du chocolat ? true" or "Avec du chocolat ? false". [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_chocolate">Avec du chocolat ?\u0020  <xliff:g example="true" id="topping_chocolate">\%\b</xliff:g></string>
+    <!--
+    Quantity of coffee cups for the order summary. It will be shown in the format of
+    "Quantité : 2", where 2 is the number of cups ordered. [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_quantity">Quantité :\u0020 <xliff:g example="2" id="quantity_order">\%\d</xliff:g></string>
+    <!--
+    Total price for the order summary. It will be shown in the format of
+    "Total: 10€" where 10€ is the price. [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_price">Total:\u0020€ <xliff:g example="10€" id="price_order">\%\s</xliff:g></string>
+
+<string name="order_summary_thank_you">Merci</string>
+
+
+</resources>
