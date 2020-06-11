@@ -1,0 +1,53 @@
+<<<<<<< HEAD
+GITHUB REFLECTION N°2
+
+What happens when you initialize a repository? Why do you need to do it?
+	A hidden .git file is created to welcome the future files of my project in it
+
+How is the staging area different from the working directory and the repository? 
+	The staging area is like a cloud area 
+What value do you think it offers?
+	You decide to use it or not in your current work or git
+
+How can you use the staging area to make sure you have one commit per logical change?
+	By adding logical change files together in the staging area before committing them
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When I am experimenting something and do not want to put it in the main branch for the moment
+
+How do the diagrams help you visualize the branch structure?
+	I can know the state of each branch and their names
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	The result is that all the commits are now in the master branch
+	
+ What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+	It is preferable to do it manually, that way you can choose what suits you without any conflict
+	
+=======
+GITHUB REFLECTION N°2
+
+What happens when you initialize a repository? Why do you need to do it?
+	A hidden .git file is created to welcome the future files of my project in it
+
+How is the staging area different from the working directory and the repository? 
+	The staging area is like a cloud area 
+What value do you think it offers?
+	You decide to use it or not in your current work or git
+
+How can you use the staging area to make sure you have one commit per logical change?
+	By adding logical change files together in the staging area before committing them
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When I am experimenting something and do not want to put it in the main branch for the moment
+
+How do the diagrams help you visualize the branch structure?
+	I can know the state of each branch and their names
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	The result is that all the commits are now in the master branch
+	
+ What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+	It is preferable to do it manually, that way you can choose what suits you without any conflict
+	
+>>>>>>> 6cddcec1c97a369d2da619499d8560db431e243b

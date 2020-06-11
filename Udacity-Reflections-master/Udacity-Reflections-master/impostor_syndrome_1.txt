@@ -1,0 +1,41 @@
+<<<<<<< HEAD
+IMPOSTOR SYNDROME 1
+
+http://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard
+
+Hand Holding Honeymoon
+Cliff of Confusion
+Desert of Despair
+Upswing of Awesome
+
+
+L’important est d’avancer, pas d’être parfait.
+C’est d’ailleurs ce qui permet de développer sa confiance !
+Source: http://www.nicolassarrasin.com/syndrome-imposteur#ixzz51kSkItNj
+
+If you cannot solve a problem, remember that one day you will be able to deal with this problem. Cross your fingers that your life will be long enough .The important thing is to move forward, not to be perfect in this context.
+
+Of course as part of a client project, the delivery date will appear to you as a hanging! In this case, turn to the right people and remember that the people you can trust are those who know they do not know.
+
+NB: I am telling you that because once in my life I spend 3 weeks on the same problem in my own code! I would prefer not to experiment that again.
+=======
+IMPOSTOR SYNDROME 1
+
+http://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard
+
+Hand Holding Honeymoon
+Cliff of Confusion
+Desert of Despair
+Upswing of Awesome
+
+
+L’important est d’avancer, pas d’être parfait.
+C’est d’ailleurs ce qui permet de développer sa confiance !
+Source: http://www.nicolassarrasin.com/syndrome-imposteur#ixzz51kSkItNj
+
+If you cannot solve a problem, remember that one day you will be able to deal with this problem. Cross your fingers that your life will be long enough .The important thing is to move forward, not to be perfect in this context.
+
+Of course as part of a client project, the delivery date will appear to you as a hanging! In this case, turn to the right people and remember that the people you can trust are those who know they do not know.
+
+NB: I am telling you that because once in my life I spend 3 weeks on the same problem in my own code! I would prefer not to experiment that again.
+>>>>>>> 6cddcec1c97a369d2da619499d8560db431e243b

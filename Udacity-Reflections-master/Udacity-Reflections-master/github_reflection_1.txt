@@ -1,0 +1,51 @@
+<<<<<<< HEAD
+GITHUB REFLECTION N°1
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	That was the first time I was using fc in my windows cmd! I thought that fc was going to tell me precisely here there is a typo difference, but I have to look among the several differences to see it. Fortunately there wasn't too much differences and only the differences appear.
+	
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	I you have problem with your server or you IDE, if a part of your current version is no longer working, it is a great thing to have a version at hand either to go on with your work, either to redo the part of your code as before when it was working !
+	
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+	The pros: you know perfectly where and what are your improvements in your code
+	The cons: sometimes you can think that not enough changes have been done to create a commit and unfortunately you get in problem the days following (and it is too late!)
+	
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	The fact that Git allows saving multiple files in one commit gives the possibility to compare the files quickly without having to do it manually
+How can you use the commands git log and git diff to view the history of files?
+	$ git log
+	$ git diff f19cb1b80fe27e938e4d72770ca0a42f25e99ecc b0678b161fcf74467ed3a63110557e3d6229cfa6
+	
+How might using version control make you more confident to make changes that could break something?
+    I tend to use the history tool of Android Studio which is marvelous and does the same. 
+    But if I understand, the checkout does not destroy any file so I stay confident.
+	
+Now that you have your workspace set up, what do you want to try using Git for?
+    Create an alias for my notepad++ !
+=======
+GITHUB REFLECTION N°1
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	That was the first time I was using fc in my windows cmd! I thought that fc was going to tell me precisely here there is a typo difference, but I have to look among the several differences to see it. Fortunately there wasn't too much differences and only the differences appear.
+	
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	I you have problem with your server or you IDE, if a part of your current version is no longer working, it is a great thing to have a version at hand either to go on with your work, either to redo the part of your code as before when it was working !
+	
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+	The pros: you know perfectly where and what are your improvements in your code
+	The cons: sometimes you can think that not enough changes have been done to create a commit and unfortunately you get in problem the days following (and it is too late!)
+	
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	The fact that Git allows saving multiple files in one commit gives the possibility to compare the files quickly without having to do it manually
+How can you use the commands git log and git diff to view the history of files?
+	$ git log
+	$ git diff f19cb1b80fe27e938e4d72770ca0a42f25e99ecc b0678b161fcf74467ed3a63110557e3d6229cfa6
+	
+How might using version control make you more confident to make changes that could break something?
+    I tend to use the history tool of Android Studio which is marvelous and does the same. 
+    But if I understand, the checkout does not destroy any file so I stay confident.
+	
+Now that you have your workspace set up, what do you want to try using Git for?
+    Create an alias for my notepad++ !
+>>>>>>> 6cddcec1c97a369d2da619499d8560db431e243b
