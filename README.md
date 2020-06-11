@@ -1,3 +1,3 @@
-# ArchiveJava02
+# ArchiveJava
 
 https://graduation.udacity.com/confirm/EKHAHSVC
