@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bened.helloandroid.MainActivity">
+
+    <ImageView
+        android:id="@+id/udacity_img"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/company_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/udacity_logo" />
+
+    <ImageView
+        android:id="@+id/android_img"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/udacity_android" />
+
+    <ImageView
+        android:id="@+id/phone_img"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_below="@id/udacity_img"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/phone_number"
+        android:src="@drawable/udacity_phone" />
+
+    <TextView
+        android:id="@+id/phone_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/udacity_img"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="19dp"
+        android:layout_toEndOf="@id/phone_img"
+        android:layout_toRightOf="@id/phone_img"
+        android:autoLink="phone"
+        android:fontFamily="@font/amiko"
+        android:text="@string/phone_number"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/mail_img"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_below="@id/phone_img"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/email"
+        android:src="@drawable/udacity_email" />
+
+    <TextView
+        android:id="@+id/mail_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_text"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="19dp"
+        android:layout_toEndOf="@id/phone_img"
+        android:layout_toRightOf="@id/mail_img"
+        android:autoLink="email"
+        android:fontFamily="@font/amiko"
+        android:text="@string/email"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/web_img"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_below="@id/mail_img"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/web_site"
+        android:src="@drawable/udacity_website" />
+
+    <TextView
+        android:id="@+id/web_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mail_text"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="19dp"
+        android:layout_toEndOf="@id/web_img"
+        android:layout_toRightOf="@id/web_img"
+        android:autoLink="web"
+        android:fontFamily="@font/amiko"
+        android:text="@string/web_site"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/venue_img"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_below="@id/web_img"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/venue"
+        android:src="@drawable/udacity_venue" />
+
+    <TextView
+        android:id="@+id/venue_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/web_text"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="19dp"
+        android:layout_toEndOf="@id/web_img"
+        android:layout_toRightOf="@id/venue_img"
+        android:fontFamily="@font/amiko"
+        android:text="@string/venue"
+        android:textSize="18sp" />
+
+</RelativeLayout>
